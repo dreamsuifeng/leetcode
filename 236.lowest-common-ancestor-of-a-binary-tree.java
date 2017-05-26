@@ -110,8 +110,8 @@ public class Solution {
             return root;
          }
             
-         TreeNode left = lowestCommonAncestor(root.left, p, q);
-         TreeNode right = lowestCommonAncestor(root.right, p, q);
+         TreeNode left = lowestCommonAncestor1(root.left, p, q);
+         TreeNode right = lowestCommonAncestor1(root.right, p, q);
          
          if (left != null && right != null){
              return root;
