@@ -23,7 +23,6 @@ public class Solution {
         }
         return ans;
     }
-
     public int[] merge(int[] nums1, int[] nums2, int k) {
         int[] ans = new int[k];
         for (int i = 0, j = 0, r = 0; r < k; ++r) {
